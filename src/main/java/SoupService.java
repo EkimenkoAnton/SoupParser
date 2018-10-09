@@ -15,17 +15,13 @@ public class SoupService {
 
     public SoupService() {
        //Put your cookie
-        loginCookies.put("",":");
+        loginCookies.put("","");
 
     }
 
     public Document getPage(String url) throws IOException {
-        /*String cookie="ORA_WWV_RAC_INSTANCE=2; " +
-                "REMEMBER_ME=FFF62CE37FE6F87B0F3D805C508B5C1C:FB860DF2489B25BA6EF086802FFCC214; " +
-                "CUSTOM_COOKIE=03.10.2018 22:21:55; " +
-                "ISU_AP_COOKIE=ORA_WWV-cPYCKmRNaC8UzcveC5TT0AYV; ISU_LIB_SID=ORA_WWV-cPYCKmRNaC8UzcveC5TT0AYV";
 
-*/
+
 
 /*
         Connection.Response res = Jsoup
