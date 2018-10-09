@@ -14,6 +14,8 @@ public class SoupService {
     Map<String, String> loginCookies = new HashMap<String, String>();
 
     public SoupService() {
+       //Put your cookie
+        loginCookies.put("",":");
 
     }
 
